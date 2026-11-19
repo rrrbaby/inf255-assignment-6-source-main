@@ -30,7 +30,7 @@ async function loadAnimals() {
 
 	try {
 		// TODO 4: Load the animals from your API instead of the JSON file.
-		const response = await fetch("/animals.json");
+		const response = await fetch("/api/animals");
 
 		// A 404 or 500 still comes back as a response, so check it.
 		if (!response.ok) {
