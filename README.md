@@ -3,7 +3,7 @@ Seperating the app allows each component to have it's own responsibility, improv
 2. How do you think you will use the client/server combination in your final project? Which part will live on the client, and which on the server?
 For my project, the server will hold the data for each accounts videos, subscribers, etc. The client will enter that information through forms on the website.
 3. Do you prefer working with Vue or vanilla (basic) JS, and why?
-
+I prefer working with Vue. It's much simpler to make components dynamic in Vue.
 
 # Assignment 6: Adding the Server
 
