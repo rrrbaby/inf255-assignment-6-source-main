@@ -1,3 +1,10 @@
+1. What is the point of separating the app into a client and server component (Vue and Express)? Isn't it simpler to just keep everything in a single place?
+Seperating the app allows each component to have it's own responsibility, improving performance and organization.
+2. How do you think you will use the client/server combination in your final project? Which part will live on the client, and which on the server?
+For my project, the server will hold the data for each accounts videos, subscribers, etc. The client will enter that information through forms on the website.
+3. Do you prefer working with Vue or vanilla (basic) JS, and why?
+
+
 # Assignment 6: Adding the Server
 
 In Assignment 5 the Vue app loaded a static animals.json file. Now you'll write an Express server, server.js, that owns the animals and answers requests with JSON, and the Vue app will read everything from it. No database is needed: the server keeps the animals in an array.
